@@ -1,0 +1,121 @@
+.container{
+    height: auto;
+}
+.orderinfo{
+    border: 1px solid #cccccc;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.ordernum{
+    background-color: #cccccc;
+    height: 30px;
+}
+.ordernum span{
+    margin-top: 5px;
+    margin-right: 60px;
+}
+.ordernum :nth-child(1){
+    font-weight: bold;
+}
+.orderdetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.prolist{
+    width: 70%;
+}
+.proa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.price{
+    margin: auto;
+    font-weight: bold;
+}
+.static{
+    margin: auto;
+}
+.static span{
+    color: red;
+}
+.comment{
+    margin: auto;
+    /*border-right: 1px solid #aeaeae;*/
+    /*background-color: blue;*/
+}
+.listproduct{
+    font-size: 14px;
+    margin: auto 0;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list_text a{
+    color: black;
+}
+.list_info{
+    color: #cccccc;
+}
+.list_img img{
+    width: 90px;
+    height: 90px;
+}
+#textcom{
+    width: 255px;
+    height: 68px;
+    resize: none;
+}
+.model_com{
+    position: fixed;
+    display: none;
+    top:50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200px;
+    z-index: 9999;
+    width: 360px;
+    height: 130px;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    padding: 20px;
+    background: #fff;
+}
+
+.model_com .opBtn{
+    margin-top: 20px;
+}
+.model_com .opBtn a{
+    width: 58px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.model_com .dialog-sure{
+    background: #52a0e5;
+    color: #fff;
+    border: 1px solid #52a0e5;
+}
+
+.model_com .dialog-close{
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    color: #3c3c3c;
+}

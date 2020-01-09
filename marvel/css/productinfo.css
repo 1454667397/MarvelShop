@@ -1,0 +1,243 @@
+*{ margin:0; padding:0; list-style:none;}
+body{ font-size:12px;}
+
+#menu{
+    width:800px;
+    overflow:hidden;
+    margin:5px auto;
+    border:4px solid #BF9660;
+}
+#menu #nav {
+    display:flex;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+#menu #nav li {
+    /*float:left;*/
+    width:120px;
+}
+#menu #nav li a {
+    display:block;
+    line-height:27px;
+    text-decoration:none;
+    padding:0 0 0 5px;
+    text-align:center;
+    color:#333;
+}
+#menu_con{
+    width:100%;
+    height:auto;
+    border-top:none
+}
+.detail img{
+    width: 100%;
+}
+.tag{
+    padding:10px;
+    overflow:hidden;
+}
+.selected{
+    background:#C5A069;
+    color:#fff;
+}
+
+
+.productinfo{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.info1{
+    width: 800px;
+     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border:5px solid #444444;
+}
+.product-buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cansu>input{
+    width: 80px;
+    height: 45px;
+    border: 2px solid #c5ff44;
+    background-color: #fff;
+}
+.buy>input{
+    margin-bottom: 70px;
+    margin-right: 20px  ;
+    width: 110px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+
+}
+.buy :nth-child(1){
+    background-color: blue;
+    color: #FFFFFF;
+}
+.buy :nth-child(2){
+    background-color: red;
+    color: #FFFFFF;
+}
+.info2{
+    width: 800px;
+    margin: 20px 0;
+    border:2px solid #ccc;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.product-img{
+    border:5px solid #ccc;
+    width: 260px;
+    height: 320px;
+}
+.product-img>img{
+    width: 100%;
+}
+.product-buy>p{
+    width: 500px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.price{
+    background-color: #e9e9e9;
+}
+.red{
+    font-size: 30px;
+    color: #FF0036;
+    font-weight: bolder;
+}
+.amount_box{
+    display: flex;
+    border: 2px solid #C5A069;
+    width: 160px;
+}
+.sum{
+    width: 80px;
+    height: 25px;
+    font-size: 16px;
+}
+.reduce,.plus{
+    display: block;
+    background-color: rgba(0,0,255,0.5);
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+}
+.commentList{
+    /*border: 1px solid #003399;  !* 测试完后删除 *!*/
+    list-style: none;
+    padding: 0 ;
+}
+.commentInfo{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 5px;
+    box-shadow: 2px 2px 5px gray
+}
+.face{
+    width: 8%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: #330066;
+    padding: 0 5px;
+}
+.faceImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+}
+.face p{
+    color: #fff;
+    width: 50px;
+    border: 1px solid #000;  /* 测试完后删除 */
+    margin: 0;
+    text-align: center;
+}
+.content{
+    width: 84%;
+    font-size: 12px;
+
+}
+.score{
+    width: 8%;
+    background-color: #000033;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.my_model{
+    position: fixed;
+    display: none;
+    top:45%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200px;
+    z-index: 9999;
+    width: 360px;
+    height: auto;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    padding: 20px;
+    background: #fff;
+}
+.pinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #44F262 dashed 3px;
+}
+.pinfo p{
+    font-size: 16px;
+    margin-top: 60px;
+    color: #aeaeae;
+}
+.pinfo span{
+    font-size: 24px;
+    color: red;
+    margin-top: 30px;
+}
+.pinfo img{
+    width: 100px;
+    height: 100px;
+}
+#buyform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+    text-align: right;
+}
+.btnbuy{
+    text-align: center;
+    margin-top: 10px;
+}
+#btnclose{
+    width: 100px;
+    height: 46px;
+    background-color: transparent;
+    border: 2px solid yellow;
+    margin-right: 5px;
+}
+#buy{
+    width: 100px;
+    height: 46px;
+    background-color: red;
+    color: #FFFFFF;
+    border: none;
+}

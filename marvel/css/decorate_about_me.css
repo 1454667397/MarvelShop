@@ -1,0 +1,85 @@
+.left>*{
+	position: relative;
+	top: 30px;
+}
+
+.touxiang{
+	background-color: #0099FF;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	margin:  0 auto;
+}
+.touxiang>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+figure{
+	text-align: center;
+	font-size: 3em;
+}
+.left>ul{
+	top: 60px;
+	line-height: 3em;
+}
+table{
+	border: 5px solid ;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	line-height: 3em;
+}
+input[type="submit"],
+input[type="reset"]{
+	text-align: center;
+	background-color: red;
+	border-radius: 50px;
+	width: 100px;
+	height: 40px;
+}
+#edit{
+	color: white;
+	background-color: blue;
+}
+#delete{
+	background-color: red;
+}
+.left>ul>li>a{
+	color: white;
+}
+
+
+.rightedit{
+	width: 80%;
+	height: 100%;
+	background-color: #fff;
+	overflow: auto;
+}
+.proinfo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.list_con{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.list_con img{
+	width: 90px;
+	height: 90px;
+}
+
+.num{
+	width: 45px;
+}
+.righttitle{
+	font-family: "Adobe 黑体 Std R";
+	font-family: 'Helvetica', 'Lucida Grande', 'Arial', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #9c9c9c;
+	text-align: center;
+}
